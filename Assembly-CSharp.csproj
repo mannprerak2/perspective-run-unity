@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{471D873C-9825-0F78-BC35-F38D5511A712}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\Admob\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\Admob\admobcall.cs" />
+     <Compile Include="Assets\Admob\admobcall2.cs" />
+     <Compile Include="Assets\RainDropEffect2\Demo\Scripts\AxisRotator.cs" />
+     <Compile Include="Assets\RainDropEffect2\Demo\Scripts\DemoScene1.cs" />
+     <Compile Include="Assets\RainDropEffect2\Demo\Scripts\DemoScene2.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Camera\RainCameraController.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Common\DropTrail.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Common\RainBehaviourBase.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Common\RainDrawer.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Common\RainDrawerContainer.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Common\RainDropTools.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Misc\BloodRainCameraController.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\Misc\FpsDisplay.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\FlowRain\FlowRainBehaviour.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\FlowRain\FlowRainController.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\FlowRain\FlowRainVariables.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\FrictionFlowRain\FrictionFlowRainBehaviour.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\FrictionFlowRain\FrictionFlowRainController.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\FrictionFlowRain\FrictionFlowRainVariables.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\SimpleRain\SimpleRainBehaviour.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\SimpleRain\SimpleRainController.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\SimpleRain\SimpleRainVariables.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\StaticRain\StaticRainBehaviour.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\StaticRain\StaticRainController.cs" />
+     <Compile Include="Assets\RainDropEffect2\Scripts\RainBehaviours\StaticRain\StaticRainVariables.cs" />
+     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
+     <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
+     <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
+     <Compile Include="Assets\Scripts\BallController.cs" />
+     <Compile Include="Assets\Scripts\ButtonFunctions.cs" />
+     <Compile Include="Assets\Scripts\Cameraontroller.cs" />
+     <Compile Include="Assets\Scripts\ChildSpinHolder.cs" />
+     <Compile Include="Assets\Scripts\CubeRotater.cs" />
+     <Compile Include="Assets\Scripts\CubeUpdator.cs" />
+     <Compile Include="Assets\Scripts\DailyGiftAndTips.cs" />
+     <Compile Include="Assets\Scripts\Flash.cs" />
+     <Compile Include="Assets\Scripts\LinePathCreator.cs" />
+     <Compile Include="Assets\Scripts\MainMenuColorScript.cs" />
+     <Compile Include="Assets\Scripts\NightMode.cs" />
+     <Compile Include="Assets\Scripts\PowerUpsStatics.cs" />
+     <Compile Include="Assets\Scripts\ShareScreenShot.cs" />
+     <Compile Include="Assets\Scripts\Spinner.cs" />
+     <Compile Include="Assets\Scripts\TutorialView.cs" />
+     <Compile Include="Assets\Scripts\powerManager.cs" />
+     <Compile Include="Assets\Slider Menu - Free\Scripts\SliderMenu.cs" />
+     <None Include="Assets\RainDropEffect2\Shaders\Resources\RainDistortion (Forward).shader" />
+     <None Include="Assets\RainDropEffect2\Shaders\Resources\RainDistortion (Mobile).shader" />
+     <None Include="Assets\RainDropEffect2\Shaders\Resources\RainDistortion (Deffered).shader" />
+     <None Include="Assets\ColorfulButtons\Credits.txt" />
+     <None Include="Assets\Admob\PlayServicesResolver\proguard-messaging-workaround.txt" />
+     <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
+     <None Include="Assets\RainDropEffect2\Shaders\Resources\RainNoDistortion.shader" />
+     <None Include="Assets\RainDropEffect2\Shaders\Resources\RainDropGlobal.cginc" />
+     <None Include="Assets\Admob\PlayServicesResolver\Editor\play-services-resolver.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Admob\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Admob\PlayServicesResolver\proguard-unity.txt" />
+     <None Include="Assets\RainDropEffect2\ReadMe.txt" />
+     <None Include="Assets\RainMaker\Readme.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6308603B-C908-375C-2BE6-3CA4FE5DD8C1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

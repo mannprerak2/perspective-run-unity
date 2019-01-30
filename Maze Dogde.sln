@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{57239791-5E65-3D60-937C-EECDE70C348C}") = "Maze Dogde", "Assembly-CSharp-firstpass.csproj", "{6308603B-C908-375C-2BE6-3CA4FE5DD8C1}"
+EndProject
+Project("{57239791-5E65-3D60-937C-EECDE70C348C}") = "Maze Dogde", "Assembly-CSharp.csproj", "{471D873C-9825-0F78-BC35-F38D5511A712}"
+EndProject
+Project("{57239791-5E65-3D60-937C-EECDE70C348C}") = "Maze Dogde", "Assembly-CSharp-Editor.csproj", "{8372DBF6-C5CC-DB0C-B659-200303C93FD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6308603B-C908-375C-2BE6-3CA4FE5DD8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6308603B-C908-375C-2BE6-3CA4FE5DD8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6308603B-C908-375C-2BE6-3CA4FE5DD8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6308603B-C908-375C-2BE6-3CA4FE5DD8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471D873C-9825-0F78-BC35-F38D5511A712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471D873C-9825-0F78-BC35-F38D5511A712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471D873C-9825-0F78-BC35-F38D5511A712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471D873C-9825-0F78-BC35-F38D5511A712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8372DBF6-C5CC-DB0C-B659-200303C93FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8372DBF6-C5CC-DB0C-B659-200303C93FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8372DBF6-C5CC-DB0C-B659-200303C93FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8372DBF6-C5CC-DB0C-B659-200303C93FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
