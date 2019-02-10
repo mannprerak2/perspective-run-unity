@@ -1,9 +1,11 @@
 # perspective-run-unity
-https://play.google.com/store/apps/details?id=com.pkmnAPPS.PerspectiveRun
 
-One of my old unity game projects, checkout the playstore link for 
+One of my old unity game projects, checkout the repo for 
 screenshots and apk
-The app has a black banner at the bottom on newer android versions(some bug idk..)
+
+# Screenshots
+<img src="./Screenshots/Screenshot_20170607-234908.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-221129.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-221800.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-221731.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-220437.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-220516.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-221100.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-221046.png" width="230"/> <img src="./Screenshots/Screenshot_20170608-221026.png" width="230"/>
+
 
 # DESCRIPTION
 Welcome to Perspective Runner.. a one of a kind Endless Runner.
